@@ -1,2 +1,9 @@
 # Temperature_Conversion
 Temperature Converter CLI
+
+# A lightweight C# console application that converts temperatures between Celsius and Fahrenheit. This tool was built as part of a Week 1 programming exercise to demonstrate basic input handling, mathematical methods, and string formatting.
+
+# Features
+Bidirectional Conversion: Convert from Celsius to Fahrenheit or vice versa.
+Formatted Output: Results are automatically rounded to two decimal places for readability.
+Interactive Menu: Simple numerical selection for a better user experience.
