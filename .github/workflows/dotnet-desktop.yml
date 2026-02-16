@@ -78,9 +78,9 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     # Execute all unit tests in the solution
-    - name: Execute unit tests
-      run: dotnet test
-
+    - name: Test
+      run: dotnet test temperature-conversion.csproj 
+      
     # Restore the application to populate the obj folder with RuntimeIdentifiers
     - name: Restore the application
       run: msbuild $env:Solution_Name /t:Restore /p:Configuration=$env:Configuration
